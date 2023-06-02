@@ -1,0 +1,7 @@
+Datatypes:
+1.string
+2.numbers
+3.boolean
+4.undefined
+
+alert("hello world")
