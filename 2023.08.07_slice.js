@@ -13,6 +13,8 @@ function splitAtX(string) {
     }
 
 }
+string = ("012345x678")
+console.log(splitAtX(string))
 
 module.exports = splitAtX;
 
