@@ -6,6 +6,9 @@ const orderNumber2 = {
     deliveryInstructions: "CV raman hostel, kiet college",
 };
 
+// changing values:
+orderNumber2.noOfPizzas = 4
+
 // creating a function to return the no. of pizzas
 // order  = order number
 function numberOfPizzas(order) {
