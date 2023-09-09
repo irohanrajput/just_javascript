@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(195, 165, 120);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-body{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
