@@ -2,10 +2,12 @@ body{
     background-color: rgb(195, 165, 120);
 }
 .container{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
 }
 
 .card-body{
