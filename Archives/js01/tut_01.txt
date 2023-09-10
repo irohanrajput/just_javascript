@@ -4,4 +4,5 @@ Datatypes:
 3.boolean
 4.undefined
 
+
 alert("hello world")
