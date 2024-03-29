@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyReports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="" class="company-logo">
+                <img src="./assets/skyy.png" alt="company-logo">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item" >IPL</li>
+                    <li class="hover-link nav-item" >Finance</li>
+                    <li class="hover-link nav-item" >Politics</li>
+                </ul>
+                <div class="search-bar flex">
+                    <input type="text" class="news-input" placeholder = "e.g. Science">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex">
+            
+        </div>
+    </main>
+    
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">this is the title</h3>
+                <h6 class="news-sourcek">end gadget 02/12/2021</h6>
+                <p class="news-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde iure corrupti aliquid praesentium repellendus earum atque fugit tenetur necessitatibus asperiores!</p>
+            </div>
+        </div>
+    </template>
+</body>
+</html>
